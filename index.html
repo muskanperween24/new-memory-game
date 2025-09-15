@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">GameZone</a>
+            <ul class="nav-links">
+                <li><a href="#game">Memory Match</a></li>
+                <li><a href="#instructions">Instructions</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="container">
+            <div class="hero-text">
+                <h1>Welcome to GameZone!</h1>
+                <p>Test your memory and have fun!</p>
+                <div class="hero-buttons">
+                    <a href="#game" class="btn btn-primary">Play Now!</a>
+                    <a href="#instructions" class="btn btn-secondary">How to Play</a>
+                </div>
+            </div>
+            <div class="hero-image">
+    <img src="b032d9d68cea5768186aadc0603140f9-removebg-preview.png" alt="Memory Match Game Screenshot">
+    <div class="shape-1"></div>
+    <div class="shape-2"></div>
+</div>
+        </section>
+
+        <section id="game" class="container">
+            <h2 class="section-title">Memory Match Game 🧠</h2>
+            <div class="game-container">
+                <div class="game-info">
+                    <p>Pairs Found: <span id="pairs-found">0</span></p>
+                    <p>Moves: <span id="moves-count">0</span></p>
+                    <button id="restart-button" class="btn btn-primary">Restart Game</button>
+                </div>
+                <div id="memory-game-board" class="memory-board">
+                </div>
+            </div>
+        </section>
+
+        <section id="instructions" class="container">
+            <h2 class="section-title">How to Play 🎮</h2>
+            <div class="instructions-content">
+                <p>1. Click on any card to reveal its image.</p>
+                <p>2. Click on a second card. If the images match, they stay revealed and you score a pair.</p>
+                <p>3. If the images don't match, both cards will flip back after a short delay.</p>
+                <p>4. The goal is to match all pairs in the fewest moves possible.</p>
+                <p>5. Click "Restart Game" to start a new round.</p>
+            </div>
+        </section>
+
+        <section id="about-us" class="container">
+            <h2 class="section-title">About Us 🌟</h2>
+            <div class="about-content">
+                <p>We are passionate about creating fun and engaging games for everyone! This Memory Match game is just the beginning.</p>
+                <p>Stay tuned for more exciting games and challenges!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://app.netlify.com/teams/muskanperween24/projects" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/muskanperween24" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/tanishasekh9/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 GameZone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
